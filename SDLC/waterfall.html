@@ -4,44 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waterfall</title>
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <ul>
+        <a href="sdlcmodels.html" id="wiplinkcolor">Back</a>
+    </ul>
     <p>
         <!-- pealkiri -->
-        <!-- lühike kirjeldus -->
-        <!-- mudeli visuaalne joonis -->
-        <!-- tabel mis loetleb advantages ja disadvantages (vähemalt 5 adv. ja disadv.)-->
+        <!-- kirjeldus -->
+        <!-- visuaalne joonis -->
+        <!-- tabel mis loetleb advantages ja disadvantages -->
+        <!-- tabel mis loetleb advantages ja disadvantages vahemalt 6 -->
     </p>
     <p>
-        <h2 id="whiteoutline" style="color: rgb(20, 34, 183); font-family: 'Comic Sans MS';">Waterfall</h2>
+        <h2 id="whiteoutline" style="color: black;">Waterfall</h2>
     </p>
-    <p style="color:white;">
-        Waterfall (ehk koskmudel) on üks esimesi tarkvaraarenduse mudeleid. Mudel põhineb tavaliste <br />
-        tootmisprotsesside eeskujul, kus iga etapp eelneb järgmisele. Tagasipöördumine eelmisesse<br />
-        etappi on keeruline. Eelnevas etapis vea avastamine, tähendab see seda, et vea juurde saab tagasi <br />
-        tulla alles siis kui tarkvara on kasutusse läinud.<br /><br />
-        <y id="whiteoutline" style="color: rgb(20, 34, 183); font-family: 'Comic Sans MS';">Etapid:</y><br />
-        1. Etapp - Nõuete Määratlemine:<br />
-        Esimeses etapis Dokumenteeritakse arendatava toote/süsteemi nõuded, käitumine, sihtriistvara jms <br />
-        mis on arendatava tarkvara taatlusliku funktsioneerimise tarbeks vajalikud. Vahest jaotatakse see<br />
-        etapp kaheks - Süsteemi analüüs ja Nõuete analüüs.<br /><br />
-        2. Etapp - Süsteemi ja Tarkvara Kavandamine<br />
-        Teises etapis kavandatakse arendusel olev süsteem ja tarkvara keskendudes nende põhilistele omadustele.<br />
-        Põhiomadusteks võivad olla: Andmestruktuurid, tarkvara arhitektuur, liidesed, liideste omadused ning <br />protseduurilised ja algoritmilised detailid. Kavandamise tulemused dokumenteeritakse mille järgi <br />hinnatakse teostuse käigus projekti kvaliteet.<br /><br />
-        3. Etapp - Teostus ning Moodulite testimine.<br />
-        Eelnevalt dokumenteeritud kavandi järgi topimub kolmandas etapis tarkvara/süsteemi arendus. Arendustöö<br />
-        käigus arendatakse programm moodulhaaval või moodulite kogumikuna. Peale programmeerimist <br />
-        teostatakse moodulite ja kogumite testimised. Olenevalt eelnevalt dokumenteeritud kavandi detailsusest <br /> tuleneb selles etapis projekti arenduslihtsus. Mida rohkem detaile on kavandatud, seda lihtsam on arendustöö.<br /><br />
-        4. Etapp - Integratsioon ja Süsteemi Testimine.<br />
-        Toimub kogu tarkvarasüsteemi testimine. Peale testimist tarnitakse toode kliendile/sihtrühmale. Testitakse <br /> sellest vaatepunktist kas süsteem teeb seda mis eelnevalt dokumenteeritud ning testitakse ka <br />
-        süsteemis esinevad detailid on loogilised.<br /><br />
-        5. Etapp - Kasutamine ja hooldus - Kõige pikem tarkvara elutsüklis olev etapp. Toimub vigade parandus, <br /> funktsionaalsuse muutmine (kas siis kliendi, turu, keskkonna või sihtrühma sisendina/vajadusena).<br />
-        Arendustöö teostamiseks korratakse kõiki eelmiseid etappe kuid siis ainult süsteemi muutmise tarbeks,<br />
-        mitte enam nullist millegi uue arendamise jaoks.<br /><br />
-        Iga Etapi tulemusena tekib dokument(üks või mitu) mis kirjeldab etapis saavutatud tulemit. Kõik dokumendid <br /> kinnitatakse. Järgmine etapp ei tohi olla samaaegselt töös kui eelmine pole lõpetatud. Kuigi <br /> mingi ülekate siiski on, ning info edastatakse ühest etapist järgmisesse edasi.<br /><br />
-        <y id="whiteoutline" style="color: rgb(20, 34, 183); font-family: 'Comic Sans MS';">SDLC Joonis:</y><br /><br />
-        <img src="../images/image2.1.jpeg" alt="Waterfall SDLC image graph" id="whiteoutline"><br /><br />
+    <p>
+        Waterfall (ehk koskmulde) meetod on Ã¼ks vanimaid tarkvaraarenduse mudeleid, mis jÃ¤rgib lineaarset lÃ¤henemist projekti edenemisele. Selle mudeli aluseks on tavaliste tootmisprotsesside struktuur, kus iga etapp jÃ¤rgneb eelnevale ning tagasipÃ¶Ã¶rdumine varasemasse etappi on keeruline. See tÃ¤hendab, et kogu arendusprotsess jÃ¤rgib kindlat jÃ¤rjestust, alustades nÃµudluste ja sÃ¼steemi nÃµuete mÃ¤Ã¤ratlemisest ning liikudes lÃ¤bi projekteerimise, rakendamise, testimise ja hoolduse. </br>
+        <p id="whiteoutline" style="color: black;">Etapid</p>
+        1. Etapp - NÃµuete MÃ¤Ã¤ratlemine: </br>
+        Esimeses etapis dokumenteeritakse arendatava toote vÃµi sÃ¼steemi nÃµuded, kÃ¤itumine, sihtriistvara jms, mis on vajalikud tarkvara tÃ¤pseks funktsioneerimiseks. Sageli vÃµib see etapp jaotuda kaheks - sÃ¼steemi analÃ¼Ã¼siks ja nÃµuete analÃ¼Ã¼siks. </br></br>
+        2. Etapp - SÃ¼steemi ja Tarkvaa Kavandamine</br>
+        Teises etapis keskendutakse arendatava sÃ¼steemi ja tarkvara kavandamisele, rÃµhutades nende pÃµhilisi omadusi. PÃµhiomadusteks vÃµivad olla andmestruktuurid ja tarkvara vÃ¤ljundid, mis dokumenteeritakse ja mille jÃ¤rgi hinnatakse projekti kvaliteeti teostuse kÃ¤igus.</br></br>
+        3. Etapp - Teostus ning Moodulite testimine </br>
+        Kolmandas etapis jÃ¤rgitakse eelnevalt dokumenteeritud kavandit tarkvara vÃµi sÃ¼steemi arendamisel. PÃ¤rast programmeerimist viiakse lÃ¤bi moodulite ja moodulikogumite testimine. Etapi keerukus sÃµltub eelnevalt dokumenteeritud kavandi detailsusest â€“ mida rohkem detaile on kavandatud, seda lihtsam on arendustÃ¶Ã¶. </br></br>
+        4. Etapp - Integratsioon ja SÃ¼steemi Testimine. </br>
+        See etapp hÃµlmab kogu tarkvarasÃ¼steemi testimist. PÃ¤rast testimist tarnitakse toode kliendile vÃµi sihtrÃ¼hmale. Testitakse, kas sÃ¼steem tÃ¤idab eelnevalt dokumenteeritud funktsioone ning kontrollitakse, kas sÃ¼steemis esinevad detailid on loogilised. </br></br>
+        5. Etapp - kasutamine ja hooldus -     KÃµige pikem elutsÃ¼kli etapp, mis hÃµlmab vigade parandamist ja funktsionaalsuse muutmist vastavalt klientide, turu vÃµi sihtrÃ¼hma sisendile ja vajadustele.
+
+
     </p>
+    
+    <img src="https://cdn.ttgtmedia.com/rms/onlineimages/whatis-waterfall_model_mobile.png" alt="">
 </body>
 </html>

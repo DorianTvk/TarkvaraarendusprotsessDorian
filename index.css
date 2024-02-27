@@ -1,23 +1,13 @@
-#test {
-    font-family: 'Comic Sans MS';
-    color: darkgreen;
-    -webkit-text-stroke-width: 0.25px;
-    -webkit-text-stroke-color: white;
+#test{
+    font-family: 'arial';
+    color: black;
 }
-
-body {
-    background-color: #222222;
+body{
+    background: gray
 }
-
-#linkcolor {
-    color: white;
+#linkcolor{
+    color: black;
 }
-
-#wiplinkcolor {
-    color: rgb(255, 0, 0);
-}
-
-#whiteoutline {
-    -webkit-text-stroke-width: 0.25px;
-    -webkit-text-stroke-color: white;
+#wiplinkcolor{
+    color: black;
 }
