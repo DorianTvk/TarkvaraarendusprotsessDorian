@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CASE",
-    "\\Images",
-    "\\SDLC"
+    "\\CASE\\styles",
+    "\\ProgStyles"
   ],
-  "SelectedNode": "\\SDLC\\bigbang.html",
   "PreviewInSolutionExplorer": false
 }
