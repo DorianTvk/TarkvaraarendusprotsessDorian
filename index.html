@@ -25,13 +25,7 @@
             animation: blinkLine 1s linear infinite alternate; /* Vilkuva joone animatsioon */
         }
 
-        img {
-            position: absolute; /* Pildi absoluutne positsioon */
-            top: 50%; /* Paigutab pildi vertikaalselt ekraani keskele */
-            left: 50%; /* Paigutab pildi horisontaalselt ekraani keskele */
-            transform: translate(-50%, -50%); /* Korrigeerib pildi asendit */
-            animation: moveImage 5s linear infinite alternate; /* Liikuv pildi animatsioon */
-        }
+        
 
         @keyframes rotateTitle {
             0% {
@@ -89,8 +83,6 @@
         <li><a href="UML/uml.html" id="wiplinkcolor">UML Diagrams</a></li>
     </ul>
     <hr> <!-- Horisontaalne joon -->
-
-    <img src="pilt.jpg" alt="Liikuv pilt"> <!-- Liikuv pilt -->
 
     <script>
         let isBlinking = true; // Muutuja, mis näitab, kas vilkumine on sisse või välja lülitatud

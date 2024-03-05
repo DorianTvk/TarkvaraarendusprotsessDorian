@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CASE\\styles",
-    "\\ProgStyles"
+    "\\CASE",
+    "\\CASE\\images",
+    "\\images",
+    "\\SDLC"
   ],
+  "SelectedNode": "\\CASE\\case2.html",
   "PreviewInSolutionExplorer": false
 }
