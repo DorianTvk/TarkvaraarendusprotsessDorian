@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorian</title>
+    <link rel="stylesheet" href="index.css">
+
+    <style>
+        body {
+            background-color: black; /* Tausta värv */
+            animation: blinkBackground 2s linear infinite alternate; /* Vilkuva tausta animatsioon */
+        }
+
+        #title {
+            display: inline-block; /* Muudab pealkirja blokiks */
+            margin-right: 20px; /* Lisab veidi paremat vahemikku */
+            animation: rotateTitle 4s linear infinite; /* Pöörlev pealkiri */
+        }
+
+        hr {
+            border: none; /* Jooni stiil */
+            border-top: 3px solid white; /* Jooni ülemine piir */
+            margin: 50px 0; /* Vahemik ülevalt ja alt */
+            animation: blinkLine 1s linear infinite alternate; /* Vilkuva joone animatsioon */
+        }
+
+        
+
+        @keyframes rotateTitle {
+            0% {
+                transform: rotate(0deg); /* Algab pööramine 0 kraadi */
+            }
+
+            100% {
+                transform: rotate(360deg); /* Lõpeb pööramine 360 kraadi */
+            }
+        }
+
+        @keyframes blinkLine {
+            0% {
+                border-top-color: white; /* Algab joon valgena */
+            }
+
+            100% {
+                border-top-color: black; /* Lõpeb joon mustana */
+            }
+        }
+
+        @keyframes blinkBackground {
+            0% {
+                background-color: white; /* Algab taust valgena */
+            }
+
+            100% {
+                background-color: black; /* Lõpeb taust mustana */
+            }
+        }
+
+        @keyframes moveImage {
+            0% {
+                transform: translate(-50%, -50%) rotate(0deg); /* Algab pildi liikumine */
+            }
+
+            100% {
+                transform: translate(-50%, -50%) rotate(360deg); /* Lõpeb pildi liikumine */
+            }
+        }
+    </style>
+</head>
+<body>
+    <button onclick="toggleBlinking()">Tausta vilkumine ON/OFF</button>
+    <h1 id="test">
+        <span id="title">Tarkvara Arendusprotessi konspekt</span>
+        Dorian Tammeveski TARpe22
+    </h1>
+    <hr> <!-- Horisontaalne joon -->
+    <ul>
+        <li><a href="./SDLC/sdlcmodels.html" id="linkcolor">SDLC Models</a></li>
+        <li><a href="./CASE/case.html" id="linkcolor">Case</a></li>
+        <li><a href="ERD/erds.html" id="wiplinkcolor">ERD</a></li>
+        <li><a href="ProgStyles/progstyles.html" id="wiplinkcolor">Programming Styles</a></li>
+        <li><a href="UML/uml.html" id="wiplinkcolor">UML Diagrams</a></li>
+        <li><a href="Libre/Libre.html" id="wiplinkcolor">ProjectLibre</a></li>
+
+    </ul>
+    <hr> <!-- Horisontaalne joon -->
+
+    <script>
+        let isBlinking = true; // Muutuja, mis näitab, kas vilkumine on sisse või välja lülitatud
+
+        function toggleBlinking() {
+            isBlinking = !isBlinking; // Vahetab väärtust
+            if (isBlinking) {
+                document.body.style.animationPlayState = "running"; // Jätkab vilkumist
+            } else {
+                document.body.style.animationPlayState = "paused"; // Peatab vilkumise
+            }
+        }
+    </script>
+</body>
+</html>
