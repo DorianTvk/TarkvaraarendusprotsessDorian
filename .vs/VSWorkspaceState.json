@@ -1,12 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CASE",
-    "\\CASE\\images",
-    "\\ERD",
+    "\\BITCOIN",
+    "\\BITCOIN\\BitCoinApp",
     "\\Libre",
     "\\Libre\\ProjectLibre-main"
   ],
-  "SelectedNode": "\\Libre\\who.html",
+  "SelectedNode": "\\BITCOIN\\BitCoinApp\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

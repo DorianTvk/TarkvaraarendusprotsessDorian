@@ -79,5 +79,15 @@ namespace BitCoinApp
 
             return bitcoin;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resultLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

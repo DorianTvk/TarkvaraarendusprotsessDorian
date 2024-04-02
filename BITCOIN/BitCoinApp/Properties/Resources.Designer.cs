@@ -63,6 +63,16 @@ namespace BitCoinApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Hõiva {
+            get {
+                object obj = ResourceManager.GetObject("Hõiva", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Screenshot_2024_02_27_181049 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2024-02-27 181049", resourceCulture);

@@ -42,7 +42,7 @@
             this.CurrencyCombo.Items.AddRange(new object[] {
             "USD",
             "EUR"});
-            this.CurrencyCombo.Location = new System.Drawing.Point(166, 79);
+            this.CurrencyCombo.Location = new System.Drawing.Point(68, 79);
             this.CurrencyCombo.Name = "CurrencyCombo";
             this.CurrencyCombo.Size = new System.Drawing.Size(121, 21);
             this.CurrencyCombo.TabIndex = 0;
@@ -50,7 +50,7 @@
             // 
             // btnGetRates
             // 
-            this.btnGetRates.Location = new System.Drawing.Point(315, 79);
+            this.btnGetRates.Location = new System.Drawing.Point(195, 79);
             this.btnGetRates.Name = "btnGetRates";
             this.btnGetRates.Size = new System.Drawing.Size(75, 23);
             this.btnGetRates.TabIndex = 1;
@@ -60,7 +60,7 @@
             // 
             // amountOfCoinBox
             // 
-            this.amountOfCoinBox.Location = new System.Drawing.Point(166, 160);
+            this.amountOfCoinBox.Location = new System.Drawing.Point(68, 160);
             this.amountOfCoinBox.Name = "amountOfCoinBox";
             this.amountOfCoinBox.Size = new System.Drawing.Size(100, 20);
             this.amountOfCoinBox.TabIndex = 2;
@@ -68,27 +68,30 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Black;
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(163, 144);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(65, 144);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(97, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Amount Of Bitcoins";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // resultLabel
             // 
             this.resultLabel.AutoSize = true;
-            this.resultLabel.Location = new System.Drawing.Point(166, 187);
+            this.resultLabel.BackColor = System.Drawing.Color.Transparent;
+            this.resultLabel.Location = new System.Drawing.Point(65, 187);
             this.resultLabel.Name = "resultLabel";
             this.resultLabel.Size = new System.Drawing.Size(37, 13);
             this.resultLabel.TabIndex = 4;
             this.resultLabel.Text = "Result";
             this.resultLabel.Visible = false;
+            this.resultLabel.Click += new System.EventHandler(this.resultLabel_Click);
             // 
             // ResultTextBox
             // 
-            this.ResultTextBox.Location = new System.Drawing.Point(166, 204);
+            this.ResultTextBox.Location = new System.Drawing.Point(68, 203);
             this.ResultTextBox.Name = "ResultTextBox";
             this.ResultTextBox.Size = new System.Drawing.Size(100, 20);
             this.ResultTextBox.TabIndex = 5;
@@ -98,7 +101,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::BitCoinApp.Properties.Resources.Screenshot_2024_02_27_181049;
+            this.BackgroundImage = global::BitCoinApp.Properties.Resources.Hõiva;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.ResultTextBox);
             this.Controls.Add(this.resultLabel);
